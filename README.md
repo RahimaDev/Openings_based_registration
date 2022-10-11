@@ -1,5 +1,5 @@
-#Openings based registration framework by Rahima Djahel(ENPC), Bruno Vallet(IGN) and Pascal Monasse(ENPC)
-#Required dependencies: PCL, Eigen, CGAL,Boost
+# Openings based registration framework by Rahima Djahel(ENPC), Bruno Vallet(IGN) and Pascal Monasse(ENPC)
+# Required dependencies: PCL, Eigen, CGAL,Boost
 
 O_Registration: an efficient algorithm to register an indoor and outdoor scan.
 
@@ -19,7 +19,7 @@ out_lines.txt: file contains information about detected openings from the outdoo
 5 : distance threshold (can be adapted by the users).
 
 
-#Remark :
+# Remark :
 
 
 As the size of the 3D point cloud representing the indoor points seen from the outdoor is very small compared to the size of the indoor scan, we preferred to use two different thresholds of inliers (to detect planar polygons) as well as two different values for the minimum size of a planar region.
@@ -30,11 +30,11 @@ that's why we have fixed these two parameters in Poly_registration.cpp in order 
 
 cloudcompare.CloudCompare TRRR.ply ../data/STR721.ply
 
-#If you use our algorithm in any of your publications or projects, please cite our paper:
+# If you use our algorithm in any of your publications or projects, please cite our paper:
 
 DJAHEL, Rahima, VALLET, Bruno, et MONASSE, Pascal. DETECTING OPENINGS FOR INDOOR/OUTDOOR REGISTRATION. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2022, vol. 43, p. 177-184.
 
-#If you have any questions, you can send an email to :
+# If you have any questions, you can send an email to :
 
 rahima.djahel@enpc.fr
 
